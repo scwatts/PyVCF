@@ -48,7 +48,7 @@ setup(
             'snp-only = vcf.filters:SnpOnly',
         ]
     },
-    url='https://github.com/jamescasbon/PyVCF',
+    url='https://github.com/scwatts/PyVCF',
     version=VERSION,
     classifiers = [
         'Development Status :: 4 - Beta',
