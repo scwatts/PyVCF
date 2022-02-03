@@ -1,6 +1,5 @@
 from setuptools import setup
 from distutils.extension import Extension
-import sys
 
 try:
     from Cython.Distutils import build_ext
@@ -71,7 +70,6 @@ setup(
         'Topic :: Scientific/Engineering :: Bio-Informatics',
       ],
     keywords='bioinformatics',
-    use_2to3=True,
     include_package_data=True,
     package_data = {
         '': ['*.vcf', '*.gz', '*.tbi'],
