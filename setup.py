@@ -50,6 +50,7 @@ setup(
     },
     url='https://github.com/scwatts/PyVCF',
     version=VERSION,
+    license='BSD/MIT',
     classifiers = [
         'Development Status :: 4 - Beta',
         'Intended Audience :: Developers',
